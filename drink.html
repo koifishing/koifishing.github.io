@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <style>
+            body {
+            font-family: "Fira Sans Condensed", Arial, sans-serif;
+            text-align: center;
+            background-color: #fffdef;
+            margin: 0px;
+            padding: 0px;
+        }
+            .header {
+            font-size: 50px;
+            background-color: #9ebb35;
+            padding: 10px;
+        }
+            .space {
+                margin: 20px;
+                padding: 20px; 
+        }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: left;">
+            <h1 class="header"> 
+               <img src="mr bean wording.png" width="200">
+            </h1>
+            </div>
+        <div class="container">
+            <img src="kitchen.png" usemap="#Map">
+            <map name="Map">
+                <area shape="poly" href coords="135,514,214,515,226,494,221,402,212,385,207,373,143,373,142,384,131,402" onclick="alert('Correct! Soya milk is 1 of the main ingredients.')">
+                <area shape="poly" href coords="290,490,342,490,342,400,332,380,328,333,306,333,301,376,289,401" onclick="alert('...Are you sure soy sauce is used in drink-making? Try again.')">
+                <area shape="poly" href coords="357,544,383,544,404,534,418,515,418,492,413,472,392,475,369,493,351,515" onclick="alert('Correct! Taro is 1 of the main ingredients.')">
+                <area shape="poly" href coords="442,427,443,450,462,474,494,485,530,484,555,470,569,448,569,421,542,405,498,402,465,406" onclick="alert('Correct! Tapioca pearls are 1 of the main ingredients.')">
+                <area shape="poly" href coords="586,535,613,548,652,541,672,551,694,556,699,550,674,528,685,516,687,506,668,511,663,498,654,493,647,483,655,478,654,471,643,473,638,482,643,496,635,508,637,519,613,524,604,535,591,526" onclick="alert('...Are you sure chilli is used in drink-making? Try again.')">
+                <area shape="poly" href coords="783,341,776,394,764,410,764,511,823,511,818,409,808,393,799,340" onclick="alert('...Are you sure rose syrup is used to make a taro-flavoured drink? Perhaps if it was to be bandung-flavoured instead. Try again.')">
+                <area shape="poly" href coords="889,521,947,521,956,429,880,430" onclick="alert('Can never miss out a good old glass to serve our drink in!')">
+            </map>
+            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <h1 class="space">
+            <a href="next.html">
+            <button style="font-size: 40px; background-color: #92ac34; color:white; border-radius: 5px;">I'm done making the drink!</button>
+            </a></h1></div>
+        </div>
+        <script>
+            AOS.init();
+          </script>  
+    </body>
+</html>
